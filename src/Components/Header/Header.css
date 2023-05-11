@@ -1,0 +1,36 @@
+.header-header {
+  background: linear-gradient(to right, #0f589c,#22313f, #811111,rgb(168, 40, 40));
+  padding: 10px;
+}
+
+.navbar-header {
+  display: flex;
+  justify-content: left;
+}
+
+.menu-header {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-header li {
+  margin-right: 10px;
+}
+
+.menu-header li:last-child {
+  margin-right: 0;
+}
+
+.menu-header a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.menu-header a:hover {
+  color: #000000;
+  background-color: #ffcc00;
+  border-radius: 45px;
+}

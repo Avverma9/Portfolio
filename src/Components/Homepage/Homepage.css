@@ -1,0 +1,174 @@
+.homepage-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-section-home {
+  width: 50%;
+  padding: 20px;
+}
+
+.text-section-home h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text-section-home p {
+  font-size: 23px;
+  line-height: 1.5;
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.content-home{
+  position: relative;
+}
+
+.content-home h2 {
+  color: #fff;
+  font-size: 2em;
+  margin-left: 167px;
+  margin-top: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.content-home h1 {
+  color: #fff;
+  font-size: 2em;
+  margin-left: 167px;
+  margin-top: -30px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.content-home h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #03a9f4;
+}
+
+.content-home h2:nth-child(2) {
+  color: #03a9f4;
+  animation: animate 1s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+/* Ghost text */
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+p2 {
+  color: #fafdff;
+  margin-top: -150px;
+  
+}
+p1 {
+  margin-top: -500px;
+  font-size: 16px;
+  color: #fafdff;
+
+  
+}
+.container-home {
+  color: #e5e5e5;
+  font-size: 2.26rem;
+  text-transform: uppercase;
+  height: 0vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation-home {
+  height:50px;
+  margin-top: -150px;
+  overflow:hidden;
+  margin-left: 1rem;
+}
+
+.animation-home > div > div {
+  padding: 0.25rem 0.75rem;
+  height:2.9rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation-home div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first-home div {
+  background-color:#20a7d8;
+}
+.second-home div {
+  background-color:#CD921E;
+}
+.third-home div {
+  background-color:#c10528;
+}
+
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
+
+p {
+  margin: 2rem 0 4rem;
+  margin-top:60px;
+  color: #f1f1f1;
+}
+
+.image-section-home {
+  width: 50%;
+  position: relative;
+}
+
+.image-section-home img {
+  width: 100%;
+  opacity: 0.9; /* Adjust the value between 0 and 1 to control the transparency */
+}
+
+/* Additional CSS Styles */
+
