@@ -18,6 +18,7 @@
   font-size: 23px;
   line-height: 1.5;
 }
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
 * {
@@ -27,8 +28,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-
-.content-home{
+.content-home {
   position: relative;
 }
 
@@ -40,6 +40,7 @@
   position: absolute;
   transform: translate(-50%, -50%);
 }
+
 .content-home h1 {
   color: #fff;
   font-size: 2em;
@@ -48,6 +49,7 @@
   position: absolute;
   transform: translate(-50%, -50%);
 }
+
 .content-home h2:nth-child(1) {
   color: transparent;
   -webkit-text-stroke: 2px #03a9f4;
@@ -88,21 +90,21 @@
     );
   }
 }
+
 /* Ghost text */
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 p2 {
   color: #fafdff;
   margin-top: -150px;
-  
 }
+
 p1 {
   margin-top: -500px;
   font-size: 16px;
   color: #fafdff;
-
-  
 }
+
 .container-home {
   color: #e5e5e5;
   font-size: 2.26rem;
@@ -114,17 +116,17 @@ p1 {
 }
 
 .animation-home {
-  height:50px;
+  height: 50px;
   margin-top: -150px;
-  overflow:hidden;
+  overflow: hidden;
   margin-left: 1rem;
 }
 
 .animation-home > div > div {
   padding: 0.25rem 0.75rem;
-  height:2.9rem;
+  height: 2.9rem;
   margin-bottom: 2.81rem;
-  display:inline-block;
+  display: inline-block;
 }
 
 .animation-home div:first-child {
@@ -132,31 +134,53 @@ p1 {
 }
 
 .first-home div {
-  background-color:#20a7d8;
+  background-color: #20a7d8;
 }
+
 .second-home div {
-  background-color:#CD921E;
+  background-color: #cd921e;
 }
+
 .third-home div {
-  background-color:#c10528;
+  background-color: #c10528;
 }
 
 @keyframes text-animation {
-  0% {margin-top: 0;}
-  10% {margin-top: 0;}
-  20% {margin-top: -5.62rem;}
-  30% {margin-top: -5.62rem;}
-  40% {margin-top: -11.24rem;}
-  60% {margin-top: -11.24rem;}
-  70% {margin-top: -5.62rem;}
-  80% {margin-top: -5.62rem;}
-  90% {margin-top: 0;}
-  100% {margin-top: 0;}
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: -5.62rem;
+  }
+  30% {
+    margin-top: -5.62rem;
+  }
+  40% {
+    margin-top: -11.24rem;
+  }
+  60% {
+    margin-top: -11.24rem;
+  }
+  70% {
+    margin-top: -5.62rem;
+  }
+  80% {
+    margin-top: -5.62rem;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
 }
 
 p {
   margin: 2rem 0 4rem;
-  margin-top:60px;
+  margin-top: 60px;
   color: #f1f1f1;
 }
 
@@ -172,3 +196,66 @@ p {
 
 /* Additional CSS Styles */
 
+@media (max-width: 768px) {
+  .homepage-home {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+  }
+  p2 {
+    color: #fafdff;
+    margin-top: -28px;
+  }
+  p1 {
+    font-size: 19px;
+    color: #fafdff;
+  }
+  .text-section-home {
+    width: 100%;
+  }
+
+  .text-section-home h1 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .text-section-home p1 {
+   
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .container-home { 
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  .animation-home {
+    margin-top: 0;
+  }
+
+  .image-section-home {
+    width: 100%;
+  }
+
+  * {
+    margin-top: 5px;
+    font-size: 10px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .content-home h2 {
+    font-size: 1.6em;
+    margin-left: 50%;
+    margin-top: 10px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .content-home h1 {
+    font-size: 1.6em;
+    margin-left: 50%;
+    margin-top: -30px;
+    transform: translate(-50%, -50%);
+  }
+}

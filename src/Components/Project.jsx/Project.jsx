@@ -18,6 +18,10 @@ const Project = () => {
                 src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/01/url-shortener.jpg"
                 alt=""
               />
+              <img
+                src="https://media0.giphy.com/media/55off5pkVx8SrLPR8T/giphy.gif?cid=6c09b952iszgzeml8oeg8p2wzgdqnvpejowtvj7tpdtvu9lf&ep=v1_stickers_related&rid=giphy.gif&ct=s"
+                alt=""
+              />
             </div>
             <div className="content">
               <h3>URL Shrinker</h3>
@@ -52,6 +56,10 @@ const Project = () => {
                 src="https://m.media-amazon.com/images/I/71lPgewzHoL._SY355_.jpg"
                 alt=""
               />
+              <img
+                src="https://media0.giphy.com/media/55off5pkVx8SrLPR8T/giphy.gif?cid=6c09b952iszgzeml8oeg8p2wzgdqnvpejowtvj7tpdtvu9lf&ep=v1_stickers_related&rid=giphy.gif&ct=s"
+                alt=""
+              />
             </div>
             <div className="content">
               <h3>Shopping Kart</h3>
@@ -83,7 +91,11 @@ const Project = () => {
           <div className="card">
             <div className="image">
               <img
-                src="https://classroom-training-bucket.s3.ap-south-1.amazonaws.com/1683616929181-Ledger.jpg"
+                src="https://avverma.s3.ap-south-1.amazonaws.com/1684643928193-Picsart_23-02-21_18-58-52-593-removebg-preview%20%281%29.png"
+                alt=""
+              />
+              <img
+                src="https://media0.giphy.com/media/55off5pkVx8SrLPR8T/giphy.gif?cid=6c09b952iszgzeml8oeg8p2wzgdqnvpejowtvj7tpdtvu9lf&ep=v1_stickers_related&rid=giphy.gif&ct=s"
                 alt=""
               />
             </div>
@@ -116,7 +128,11 @@ const Project = () => {
           <div className="card">
             <div className="image">
               <img
-                src="https://classroom-training-bucket.s3.ap-south-1.amazonaws.com/1683617153028-Untitled.jpg"
+                src="https://avverma.s3.ap-south-1.amazonaws.com/1684644391965-Picsart_23-02-21_18-58-52-593-removebg-preview%20%282%29.png"
+                alt=""
+              />
+              <img
+                src="https://media0.giphy.com/media/55off5pkVx8SrLPR8T/giphy.gif?cid=6c09b952iszgzeml8oeg8p2wzgdqnvpejowtvj7tpdtvu9lf&ep=v1_stickers_related&rid=giphy.gif&ct=s"
                 alt=""
               />
             </div>
@@ -147,11 +163,52 @@ const Project = () => {
               </div>
             </div>
           </div>
-
+          <div className="card">
+            <div className="image">
+              <img
+                src="https://classroom-training-bucket.s3.ap-south-1.amazonaws.com/1684565140682-Car4u-removebg-preview.png"
+                alt=""
+              />
+              <img
+                src="https://media0.giphy.com/media/55off5pkVx8SrLPR8T/giphy.gif?cid=6c09b952iszgzeml8oeg8p2wzgdqnvpejowtvj7tpdtvu9lf&ep=v1_stickers_related&rid=giphy.gif&ct=s"
+                alt=""
+              />
+            </div>
+            <div className="content">
+              <h3>Car 4U</h3>
+              <p>
+                Car4U is a comprehensive car buy sell management project developed
+                using the MERN (MongoDB, Express.js, React.js, Node.js) stack.
+                This project focuses on providing a seamless car rental
+                experience by handling authentication, authorization, and
+                profile management functionalities.
+              </p>
+              <div className="button-container">
+                <a
+                  href="https://car4uav.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="button">View Project</button>
+                </a>
+                <a
+                  href="https://github.com/Avverma9/car_site"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="button">GitHub</button>
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="card">
             <div className="image">
               <img
                 src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210730204741/How-to-Find-an-Internship-as-a-College-Student.png"
+                alt=""
+              />
+              <img
+                src="https://media0.giphy.com/media/55off5pkVx8SrLPR8T/giphy.gif?cid=6c09b952iszgzeml8oeg8p2wzgdqnvpejowtvj7tpdtvu9lf&ep=v1_stickers_related&rid=giphy.gif&ct=s"
                 alt=""
               />
             </div>

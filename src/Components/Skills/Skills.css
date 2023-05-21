@@ -90,4 +90,33 @@
     text-align: center;
     line-height: 1.5;
   }
+  @media (max-width: 768px) {
+    .skills {
+      justify-content: center;
+    }
+    
+    .skill {
+      width: 80%;
+      margin: 10px;
+    }
+    
+    .card {
+      padding: 10px;
+    }
+    
+    .card-content h3 {
+      font-size: 16px;
+      margin-top: -10px;
+      margin-bottom: 14px;
+    }
+    
+    .card-content p {
+      font-size: 12px;
+    }
+    
+    .card-image img {
+      width: 80px;
+      height: 80px;
+    }
+  }
   

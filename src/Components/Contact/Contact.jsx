@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="card-contact">
       <div className="image-container-contact">
-        <img src="https://classroom-training-bucket.s3.ap-south-1.amazonaws.com/1683515083904-me.png" alt="name" className="profile-image-contact" />
+        <img src="https://avverma.s3.ap-south-1.amazonaws.com/1684642840901-Picsart_23-02-21_18-58-52-593-removebg-preview.png" alt="name" className="profile-image-contact" />
       </div>
       <h2>Ankit Kumar Verma</h2>
       

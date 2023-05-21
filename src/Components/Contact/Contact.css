@@ -63,4 +63,21 @@
     background-color: #ccc;
     margin-top: 8px;
   }
+  @media (max-width: 768px) {
+    .card-contact {
+      /* Adjust the styles for mobile devices here */
+      height: auto;
+      width: 80%;
+      margin-top: 50px;
+      margin-left: 35px;
+    }
+  
+    .image-container-contact {
+      /* Adjust the styles for mobile devices here */
+      width: 100px;
+      height: 100px;
+    }
+  
+    /* Adjust other styles as needed for mobile devices */
+  }
   

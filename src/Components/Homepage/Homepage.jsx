@@ -32,7 +32,7 @@ const Homepage = () => {
       </div>
       <div className="image-section-home">
         <img
-          src="https://classroom-training-bucket.s3.ap-south-1.amazonaws.com/1683515608646-Picsart_23-02-21_18-58-52-593_1_1_1-removebg-preview%20%282%29.png"
+          src="https://avverma.s3.ap-south-1.amazonaws.com/1684642840901-Picsart_23-02-21_18-58-52-593-removebg-preview.png"
           alt="Profile"
         />
       </div>
