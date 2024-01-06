@@ -1,26 +1,19 @@
-import React from 'react'
-import Header from './componenets/header/Header';
-import Nav from './componenets/nav/Nav';
-import Footer from './componenets/footer/Footer';
-import Portfolio from './componenets/portfolio/Portfolio';
-import Testimonials from './componenets/testimonials/Testimonials';
-import Experience from './componenets/experience/Experience';
-import Contact from './componenets/contact/Contact';
-import About from './componenets/about/About';
-import Projects from './componenets/projects/Projects';
-const App = () => {
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
+import Intro from "./components/Intro";
+
+function App() {
   return (
-    <>
-    <Header />
-    <Nav />
-    <Footer />
-    <Portfolio />
-      <Testimonials />
-      <Experience />
-      <Projects/>
-      <Contact />
-      <About />
-        </>
-  )
+    <Router>
+      <>
+      <Header/>
+        <Routes>
+         
+          <Route path="/" element={<Intro/>}/>
+        </Routes>
+      </>
+    </Router>
+  );
 }
-export default App
+
+export default App;

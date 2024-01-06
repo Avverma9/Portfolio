@@ -1,0 +1,115 @@
+/* Intro.css */
+
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-side-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; /* Make the image circular */
+  overflow: hidden; /* Ensure the circular shape is applied */
+}
+
+.right-side-intro {
+  max-width: 600px; /* Adjust the max-width as per your design */
+  padding: 20px;
+  background-color: #f0f0f0; /* Optional: Add a background color */
+  border-radius: 8px; /* Optional: Add rounded corners to the container */
+}
+
+.right-side-intro p {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.9;
+  color: #333; /* Adjust the text color */
+}
+
+/* ------------------------------------------ */
+
+.right-side-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; /* Make the image circular */
+  overflow: hidden; /* Ensure the circular shape is applied */
+}
+
+.left-side-intro {
+  max-width: 600px; /* Adjust the max-width as per your design */
+  padding: 20px;
+  background-color: #f0f0f0; /* Optional: Add a background color */
+  border-radius: 8px; /* Optional: Add rounded corners to the container */
+}
+
+.left-side-intro p {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  color: #333; /* Adjust the text color */
+}
+@media (max-width: 768px) {
+  /* Intro.css */
+
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .left-side-image {
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    overflow: hidden;
+    border-radius: 50%; /* Make it circular */
+    margin-bottom: 20px; /* Add some space between image and text */
+  }
+
+  .left-side-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the circular area */
+    border-radius: 50%; /* Ensure the image itself is circular */
+  }
+
+  .right-side-intro {
+    max-width: 600px; /* Adjust the maximum width as needed */
+  }
+  .right-side-intro p {
+    font-size: 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #333; /* Adjust the text color */
+  }
+  /* ---------------- */
+
+  .right-side-image {
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    overflow: hidden;
+    border-radius: 50%; /* Make it circular */
+    margin-bottom: 20px; /* Add some space between image and text */
+  }
+
+  .right-side-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the circular area */
+    border-radius: 50%; /* Ensure the image itself is circular */
+  }
+
+  .left-side-intro {
+    max-width: 600px; /* Adjust the maximum width as needed */
+  }
+  .left-side-intro p {
+    font-size: 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #333; /* Adjust the text color */
+  }
+}
