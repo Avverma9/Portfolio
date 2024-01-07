@@ -15,7 +15,7 @@ export default function Intro() {
             My name is Ankit Kumar Verma, a dynamic and proficient MERN stack
             developer driven by a strong passion for coding. I bring with me a
             solid background, including one year of hands-on experience as a
-            backend developer trainee at Function Up, where I honed my skills.
+            Mern stack developer at Shivila Technologies, where I honed my skills.
             Subsequently, I transitioned into a full-fledged MERN developer
             role, accumulating an additional year of expertise. Currently, I am
             actively contributing to innovative projects as a MERN developer at

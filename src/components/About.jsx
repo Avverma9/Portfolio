@@ -32,7 +32,7 @@ export default function () {
         <p>AWS</p>
       </div>
       <div className="about-me">
-        My name is Ankit Kumar Verma. I completed my graduation on December 31,
+        I completed my graduation on December 31,
         2020, and then pursued MCA from Manipal University Jaipur, successfully
         completing it in 2024. I am a MERN (MongoDB, Express.js, React, Node.js)
         stack developer, and I began my journey at Shivila Technologies in
