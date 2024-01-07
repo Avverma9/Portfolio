@@ -1,0 +1,70 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #2c3e50;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  color: #ecf0f1;
+  font-family: "Roboto", sans-serif; /* Added font-family */
+}
+.contact-container p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+button {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid red; /* Add style, width, and color */
+  border-radius: 4px;
+  background-color: #3498db00;
+  color: #ecf0f1;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e20505;
+  color: black;
+}
+
+.additional-details {
+  margin-top: 20px;
+}
+
+h5 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid #1f2833;
+  margin-bottom: 15px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+li svg {
+  margin-right: 10px;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 480px) {
+  .contact-container {
+    margin-top: 20px;
+    width: 90%;
+  }
+}
