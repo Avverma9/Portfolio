@@ -24,7 +24,7 @@ button {
   padding: 12px 20px;
   font-size: 16px;
   cursor: pointer;
-  border: 2px solid red; /* Add style, width, and color */
+  border: 2px solid rgb(185, 165, 165); /* Add style, width, and color */
   border-radius: 4px;
   background-color: #3498db00;
   color: #ecf0f1;
@@ -32,7 +32,7 @@ button {
 }
 
 button:hover {
-  background-color: #e20505;
+  background-color: #c0aaaa;
   color: black;
 }
 
